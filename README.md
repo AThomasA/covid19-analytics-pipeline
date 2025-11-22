@@ -74,9 +74,11 @@ python src/etl.py
 
 ### Recomendo abrir dois terminais para rodar simultaneamente:
 
-| App | Aplicação	| Comando	| Acesso |
-| Dashboard	| streamlit | run dashboard/app.py	| http://localhost:8501 |
-| API	| uvicorn | src.api:app --reload	| http://127.0.0.1:8000/docs |
+| 🏷️ App | 💻 Aplicação | 📝 Comando | Acesso |
+| :--- | :--- | :--- |
+| **Dashboard** | streamlit | run dashboard/app.py | http://localhost:8501 |
+| **API** | uvicorn | src.api:app --reload | http://127.0.0.1:8000/docs |
+
 
 ## 4. Validando com Testes
 ```Bash
